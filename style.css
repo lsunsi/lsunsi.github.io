@@ -1,0 +1,45 @@
+body {
+  font-family: Verdana;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stretch {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.names {
+  margin-bottom: 32px;
+}
+
+.username {
+  font-size: 128px;
+  text-align: center;
+  border-bottom: 4px solid black;
+}
+
+.fullname {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 256px;
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+}
