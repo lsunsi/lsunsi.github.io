@@ -1,20 +1,30 @@
 body {
-  font-family: Verdana;
   background-color: #f5f5f5;
+  font-family: Verdana;
 }
 
-.container {
+.root {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .stretch {
-  position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
-  right: 0
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 40%;
+  }
 }
 
 .names {
@@ -22,15 +32,16 @@ body {
 }
 
 .username {
+  background-color: black;
+  color: #f5f5f5;
   font-size: 128px;
   text-align: center;
-  border-bottom: 4px solid black;
 }
 
 .fullname {
+  font-size: 24px;
   margin-top: 8px;
   text-align: center;
-  font-size: 24px;
 }
 
 .social {
