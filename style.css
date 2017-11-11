@@ -33,7 +33,7 @@ body {
 }
 
 .fullname {
-  font-size: 1em;
+  font-size: 2em;
   margin-top: 8px;
   text-align: center;
 }
@@ -50,6 +50,9 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .username {
+    font-size: 8em;
+  }
   .container {
     width: 40%;
   }
