@@ -45,8 +45,8 @@ body {
 }
 
 .icon {
-  height: 64px;
-  width: 64px;
+  height: 96px;
+  width: 96px;
 }
 
 @media (min-width: 1024px) {
